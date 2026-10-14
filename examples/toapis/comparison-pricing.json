@@ -1,0 +1,119 @@
+{
+  "checked_date": "2026-10-14",
+  "source": "Authenticated ToAPIs pricing API",
+  "note": "Quote is not actual settlement; only tested tiers retained",
+  "data": [
+    {
+      "model": "doubao-seedream-5-0-pro",
+      "quoted_tier": [
+        {
+          "charge_type": "per_request",
+          "conditions": {
+            "input_image_count": 1,
+            "n": 1,
+            "quality": "medium",
+            "resolution": "1k"
+          },
+          "group": "default",
+          "price_basis": "request",
+          "unit": "request",
+          "unit_price": "0.042857"
+        }
+      ]
+    },
+    {
+      "model": "gemini-3.1-flash-image-preview",
+      "quoted_tier": [
+        {
+          "charge_type": "per_request",
+          "conditions": {
+            "resolution": "1K"
+          },
+          "group": "default",
+          "price_basis": "request",
+          "unit": "request",
+          "unit_price": "0.025"
+        }
+      ]
+    },
+    {
+      "model": "gemini-nano-banana-2.1",
+      "quoted_tier": [
+        {
+          "charge_type": "per_request",
+          "conditions": {
+            "input_image_count": 0,
+            "n": 1,
+            "resolution": "1K"
+          },
+          "group": "default",
+          "price_basis": "request",
+          "unit": "request",
+          "unit_price": "0.015"
+        }
+      ]
+    },
+    {
+      "model": "gpt-image-2",
+      "quoted_tier": [
+        {
+          "charge_type": "per_request",
+          "conditions": {
+            "n": 1,
+            "resolution": "1K"
+          },
+          "group": "default",
+          "price_basis": "request",
+          "unit": "request",
+          "unit_price": "0.015"
+        }
+      ]
+    },
+    {
+      "model": "gpt-image-2-vip",
+      "quoted_tier": [
+        {
+          "charge_type": "per_request",
+          "conditions": {
+            "quality": "low",
+            "resolution": "1K"
+          },
+          "group": "default",
+          "price_basis": "request",
+          "unit": "request",
+          "unit_price": "0.0019"
+        }
+      ]
+    },
+    {
+      "model": "gpt-image-2.5-flare",
+      "quoted_tier": [
+        {
+          "charge_type": "per_request",
+          "conditions": {
+            "n": 1,
+            "quality": "high",
+            "resolution": "1K"
+          },
+          "group": "default",
+          "price_basis": "request",
+          "unit": "request",
+          "unit_price": "0.0225"
+        }
+      ]
+    },
+    {
+      "model": "nano_banana",
+      "quoted_tier": [
+        {
+          "charge_type": "per_request",
+          "conditions": {},
+          "group": "default",
+          "price_basis": "request",
+          "unit": "request",
+          "unit_price": "0.012"
+        }
+      ]
+    }
+  ]
+}

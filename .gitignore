@@ -104,3 +104,8 @@ venv/
 
 # Local Wan / diffusers GPU environment
 .venv-wan/
+
+# Community ToAPIs private task receipts and credentials
+.toapis-state/
+**/private-state/
+.toapis-quickstart.env
