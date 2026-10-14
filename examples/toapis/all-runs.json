@@ -25,12 +25,16 @@
       1024
     ],
     "sha256": "4095ab2fc0b7a54d10979c7c4e4de1abd6b9f4465be39a302329de1e7d1119a2",
-    "actual_cost_usd": null,
-    "actual_credits": null,
+    "actual_cost_usd": "0.0019",
+    "actual_credits": "0.38",
     "scope": "Native ToAPIsImage.execute through upstream ToolRegistry; complete video pipeline not tested",
     "original_format": "PNG",
     "saved_format": "PNG",
-    "locally_converted": false
+    "locally_converted": false,
+    "actual_cost_source": "Owner-confirmed backend credit charge; 1 credit=$0.005",
+    "backend_duration_seconds": 94,
+    "reported_model": "gpt-image-2-vip",
+    "reported_model_check": "All 11 task responses re-queried, IDs matched"
   },
   {
     "provider": "toapis",
@@ -61,12 +65,16 @@
       1024
     ],
     "sha256": "5474f0c7b3bf6a0c3391e445e73d8aa9570340dc8fe22daaa20c6f9d24d08fc5",
-    "actual_cost_usd": null,
-    "actual_credits": null,
+    "actual_cost_usd": "0.0019",
+    "actual_credits": "0.38",
     "scope": "Native ToAPIsImage.execute through upstream ToolRegistry; complete video pipeline not tested",
     "original_format": "PNG",
     "saved_format": "PNG",
-    "locally_converted": false
+    "locally_converted": false,
+    "actual_cost_source": "Owner-confirmed backend credit charge; 1 credit=$0.005",
+    "backend_duration_seconds": 87,
+    "reported_model": "gpt-image-2-vip",
+    "reported_model_check": "All 11 task responses re-queried, IDs matched"
   },
   {
     "provider": "toapis",
@@ -97,12 +105,16 @@
       1024
     ],
     "sha256": "3d0e12ff6bcade43b45935aa500a47e8a94db9ca0f7657dbf9d35bf8f17a18a9",
-    "actual_cost_usd": null,
-    "actual_credits": null,
+    "actual_cost_usd": "0.0019",
+    "actual_credits": "0.38",
     "scope": "Native ToAPIsImage.execute through upstream ToolRegistry; complete video pipeline not tested",
     "original_format": "PNG",
     "saved_format": "PNG",
-    "locally_converted": false
+    "locally_converted": false,
+    "actual_cost_source": "Owner-confirmed backend credit charge; 1 credit=$0.005",
+    "backend_duration_seconds": 307,
+    "reported_model": "gpt-image-2-vip",
+    "reported_model_check": "All 11 task responses re-queried, IDs matched"
   },
   {
     "provider": "toapis",
@@ -133,13 +145,17 @@
     "output_format": "PNG",
     "sha256": "61f9c17aa0aa1af7225e937816edf4b71ccf4864b94a09c1dae67aa4f9167bd5",
     "elapsed_seconds": 124.41,
-    "actual_cost_usd": null,
-    "actual_credits": null,
+    "actual_cost_usd": "0.015",
+    "actual_credits": "3",
     "comparison": "One unseeded text-to-image sample per model; quality tiers differ; not a benchmark",
     "scope": "Native ToolRegistry + ToAPIsImage.execute",
     "original_format": "PNG",
     "saved_format": "PNG",
-    "locally_converted": false
+    "locally_converted": false,
+    "actual_cost_source": "Owner-confirmed backend credit charge; 1 credit=$0.005",
+    "backend_duration_seconds": 116,
+    "reported_model": "gpt-image-2",
+    "reported_model_check": "All 11 task responses re-queried, IDs matched"
   },
   {
     "provider": "toapis",
@@ -171,13 +187,17 @@
     "output_format": "PNG",
     "sha256": "36cb9e3750d7237b511358154dbda7ebb1a1f7c8dfe4fd3aae69706a8cbfbbc3",
     "elapsed_seconds": 60.2,
-    "actual_cost_usd": null,
-    "actual_credits": null,
+    "actual_cost_usd": "0.0225",
+    "actual_credits": "4.5",
     "comparison": "One unseeded text-to-image sample per model; quality tiers differ; not a benchmark",
     "scope": "Native ToolRegistry + ToAPIsImage.execute",
     "original_format": "PNG",
     "saved_format": "PNG",
-    "locally_converted": false
+    "locally_converted": false,
+    "actual_cost_source": "Owner-confirmed backend credit charge; 1 credit=$0.005",
+    "backend_duration_seconds": 55,
+    "reported_model": "gpt-image-2.5-flare",
+    "reported_model_check": "All 11 task responses re-queried, IDs matched"
   },
   {
     "provider": "toapis",
@@ -208,14 +228,18 @@
     "output_format": "JPEG",
     "sha256": "7f395762f5690f6e72608229a878fe2be3b170711f1ac0cee6b713933984d167",
     "elapsed_seconds": 32.38,
-    "actual_cost_usd": null,
-    "actual_credits": null,
+    "actual_cost_usd": "0.015",
+    "actual_credits": "3",
     "comparison": "One unseeded text-to-image sample per model; quality tiers differ; not a benchmark",
     "scope": "Native ToolRegistry + ToAPIsImage.execute",
     "original_sha256": "e66bb36ef402ffa8ae800296ee7a82064021c24bbc28192151d489a3d3ac3140",
     "original_format": "JPEG",
     "saved_format": "PNG",
-    "locally_converted": true
+    "locally_converted": true,
+    "actual_cost_source": "Owner-confirmed backend credit charge; 1 credit=$0.005",
+    "backend_duration_seconds": 26,
+    "reported_model": "gemini-nano-banana-2.1",
+    "reported_model_check": "All 11 task responses re-queried, IDs matched"
   },
   {
     "provider": "toapis",
@@ -246,14 +270,18 @@
     "output_format": "JPEG",
     "sha256": "5acd7907e95892d527f3ed5fea572c7d882aecb364a41944cdd7387e4cd32e37",
     "elapsed_seconds": 69.03,
-    "actual_cost_usd": null,
-    "actual_credits": null,
+    "actual_cost_usd": "0.042856",
+    "actual_credits": "8.5712",
     "comparison": "One unseeded text-to-image sample per model; quality tiers differ; not a benchmark",
     "scope": "Native ToolRegistry + ToAPIsImage.execute",
     "original_sha256": "75fb5fb7536986d4368e818ae26a4461ea400f3b4db955deb090c83266ac1285",
     "original_format": "JPEG",
     "saved_format": "PNG",
-    "locally_converted": true
+    "locally_converted": true,
+    "actual_cost_source": "Owner-confirmed backend credit charge; 1 credit=$0.005",
+    "backend_duration_seconds": 65,
+    "reported_model": "doubao-seedream-5-0-pro",
+    "reported_model_check": "All 11 task responses re-queried, IDs matched"
   },
   {
     "provider": "toapis",
@@ -284,13 +312,17 @@
     "output_format": "PNG",
     "sha256": "178c45891c716371c8edc738514f64272226f076e3b4d24b95fd117541a23307",
     "elapsed_seconds": 32.77,
-    "actual_cost_usd": null,
-    "actual_credits": null,
+    "actual_cost_usd": "0.025",
+    "actual_credits": "5",
     "comparison": "One unseeded text-to-image sample per model; quality tiers differ; not a benchmark",
     "scope": "Native ToolRegistry + ToAPIsImage.execute",
     "original_format": "PNG",
     "saved_format": "PNG",
-    "locally_converted": false
+    "locally_converted": false,
+    "actual_cost_source": "Owner-confirmed backend credit charge; 1 credit=$0.005",
+    "backend_duration_seconds": 28,
+    "reported_model": "gemini-3.1-flash-image-preview",
+    "reported_model_check": "All 11 task responses re-queried, IDs matched"
   },
   {
     "provider": "toapis",
@@ -321,13 +353,17 @@
     "output_format": "PNG",
     "sha256": "a521f626b788cd12c942dea3a2106ab2b309096936303bb8ec4253fa1846fa02",
     "elapsed_seconds": 14.41,
-    "actual_cost_usd": null,
-    "actual_credits": null,
+    "actual_cost_usd": "0.012",
+    "actual_credits": "2.4",
     "comparison": "One unseeded text-to-image sample per model; quality tiers differ; not a benchmark",
     "scope": "Native ToolRegistry + ToAPIsImage.execute",
     "original_format": "PNG",
     "saved_format": "PNG",
-    "locally_converted": false
+    "locally_converted": false,
+    "actual_cost_source": "Owner-confirmed backend credit charge; 1 credit=$0.005",
+    "backend_duration_seconds": 9,
+    "reported_model": "nano_banana",
+    "reported_model_check": "All 11 task responses re-queried, IDs matched"
   },
   {
     "provider": "toapis",
@@ -359,12 +395,16 @@
     "output_format": "PNG",
     "sha256": "9032efc65477f7b088e0d0f1c3db415c69d016845973979a7a1990a27e34b669",
     "elapsed_seconds": 115.69,
-    "actual_cost_usd": null,
-    "actual_credits": null,
+    "actual_cost_usd": "0.015",
+    "actual_credits": "3",
     "scope": "Native ToAPIsImage resolution mapping probe; adds matching top-level resolution to metadata",
     "original_format": "PNG",
     "saved_format": "PNG",
-    "locally_converted": false
+    "locally_converted": false,
+    "actual_cost_source": "Owner-confirmed backend credit charge; 1 credit=$0.005",
+    "backend_duration_seconds": 104,
+    "reported_model": "gpt-image-2",
+    "reported_model_check": "All 11 task responses re-queried, IDs matched"
   },
   {
     "provider": "toapis",
@@ -396,12 +436,16 @@
     "output_format": "JPEG",
     "sha256": "a5ab4d69dd490bc45bfe1666a73d2cff2c7937d1977c661636fb7617675b1a58",
     "elapsed_seconds": 86.95,
-    "actual_cost_usd": null,
-    "actual_credits": null,
+    "actual_cost_usd": "0.042856",
+    "actual_credits": "8.5712",
     "scope": "Native ToAPIsImage resolution mapping probe; adds matching top-level resolution to metadata",
     "original_sha256": "7fc7437d50908be10f1f5b8665e5b15f1eb48a7e429076d34ee25357e953021b",
     "original_format": "JPEG",
     "saved_format": "PNG",
-    "locally_converted": true
+    "locally_converted": true,
+    "actual_cost_source": "Owner-confirmed backend credit charge; 1 credit=$0.005",
+    "backend_duration_seconds": 78,
+    "reported_model": "doubao-seedream-5-0-pro",
+    "reported_model_check": "All 11 task responses re-queried, IDs matched"
   }
 ]

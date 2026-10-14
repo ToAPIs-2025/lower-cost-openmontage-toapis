@@ -28,11 +28,15 @@
   "output_format": "PNG",
   "sha256": "36cb9e3750d7237b511358154dbda7ebb1a1f7c8dfe4fd3aae69706a8cbfbbc3",
   "elapsed_seconds": 60.2,
-  "actual_cost_usd": null,
-  "actual_credits": null,
+  "actual_cost_usd": "0.0225",
+  "actual_credits": "4.5",
   "comparison": "One unseeded text-to-image sample per model; quality tiers differ; not a benchmark",
   "scope": "Native ToolRegistry + ToAPIsImage.execute",
   "original_format": "PNG",
   "saved_format": "PNG",
-  "locally_converted": false
+  "locally_converted": false,
+  "actual_cost_source": "Owner-confirmed backend credit charge; 1 credit=$0.005",
+  "backend_duration_seconds": 55,
+  "reported_model": "gpt-image-2.5-flare",
+  "reported_model_check": "All 11 task responses re-queried, IDs matched"
 }

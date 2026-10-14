@@ -27,10 +27,14 @@
     1024
   ],
   "sha256": "3d0e12ff6bcade43b45935aa500a47e8a94db9ca0f7657dbf9d35bf8f17a18a9",
-  "actual_cost_usd": null,
-  "actual_credits": null,
+  "actual_cost_usd": "0.0019",
+  "actual_credits": "0.38",
   "scope": "Native ToAPIsImage.execute through upstream ToolRegistry; complete video pipeline not tested",
   "original_format": "PNG",
   "saved_format": "PNG",
-  "locally_converted": false
+  "locally_converted": false,
+  "actual_cost_source": "Owner-confirmed backend credit charge; 1 credit=$0.005",
+  "backend_duration_seconds": 307,
+  "reported_model": "gpt-image-2-vip",
+  "reported_model_check": "All 11 task responses re-queried, IDs matched"
 }

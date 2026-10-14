@@ -27,12 +27,16 @@
   "output_format": "JPEG",
   "sha256": "5acd7907e95892d527f3ed5fea572c7d882aecb364a41944cdd7387e4cd32e37",
   "elapsed_seconds": 69.03,
-  "actual_cost_usd": null,
-  "actual_credits": null,
+  "actual_cost_usd": "0.042856",
+  "actual_credits": "8.5712",
   "comparison": "One unseeded text-to-image sample per model; quality tiers differ; not a benchmark",
   "scope": "Native ToolRegistry + ToAPIsImage.execute",
   "original_sha256": "75fb5fb7536986d4368e818ae26a4461ea400f3b4db955deb090c83266ac1285",
   "original_format": "JPEG",
   "saved_format": "PNG",
-  "locally_converted": true
+  "locally_converted": true,
+  "actual_cost_source": "Owner-confirmed backend credit charge; 1 credit=$0.005",
+  "backend_duration_seconds": 65,
+  "reported_model": "doubao-seedream-5-0-pro",
+  "reported_model_check": "All 11 task responses re-queried, IDs matched"
 }

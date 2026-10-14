@@ -27,11 +27,15 @@
   "output_format": "PNG",
   "sha256": "178c45891c716371c8edc738514f64272226f076e3b4d24b95fd117541a23307",
   "elapsed_seconds": 32.77,
-  "actual_cost_usd": null,
-  "actual_credits": null,
+  "actual_cost_usd": "0.025",
+  "actual_credits": "5",
   "comparison": "One unseeded text-to-image sample per model; quality tiers differ; not a benchmark",
   "scope": "Native ToolRegistry + ToAPIsImage.execute",
   "original_format": "PNG",
   "saved_format": "PNG",
-  "locally_converted": false
+  "locally_converted": false,
+  "actual_cost_source": "Owner-confirmed backend credit charge; 1 credit=$0.005",
+  "backend_duration_seconds": 28,
+  "reported_model": "gemini-3.1-flash-image-preview",
+  "reported_model_check": "All 11 task responses re-queried, IDs matched"
 }

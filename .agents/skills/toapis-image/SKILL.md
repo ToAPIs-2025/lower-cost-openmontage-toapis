@@ -7,7 +7,7 @@ For production, follow AGENT_GUIDE.md and the selected pipeline. This fork adds
 one image provider; video, voice, and the complete production pipeline were not
 validated by this tutorial. For provider smoke tests use examples/toapis/demo.py.
 
-Require exact tool `toapis_image`, provider `toapis`, model `gpt-image-2-vip`.
+Require exact tool `toapis_image`, provider `toapis`, and an explicit model ID from tools/toapis_models.py. VIP is the default.
 VIP uses low/1K/n=1. Other explicit generation-only options and their tiers are in tools/toapis_models.py; see examples/toapis/MODEL_COMPARISON.md. Estimate cost queries authenticated pricing;
 an estimate is not a settled charge. Credentials indicate configuration only.
 

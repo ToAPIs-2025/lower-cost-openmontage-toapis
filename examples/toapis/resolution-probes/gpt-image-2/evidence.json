@@ -28,10 +28,14 @@
   "output_format": "PNG",
   "sha256": "9032efc65477f7b088e0d0f1c3db415c69d016845973979a7a1990a27e34b669",
   "elapsed_seconds": 115.69,
-  "actual_cost_usd": null,
-  "actual_credits": null,
+  "actual_cost_usd": "0.015",
+  "actual_credits": "3",
   "scope": "Native ToAPIsImage resolution mapping probe; adds matching top-level resolution to metadata",
   "original_format": "PNG",
   "saved_format": "PNG",
-  "locally_converted": false
+  "locally_converted": false,
+  "actual_cost_source": "Owner-confirmed backend credit charge; 1 credit=$0.005",
+  "backend_duration_seconds": 104,
+  "reported_model": "gpt-image-2",
+  "reported_model_check": "All 11 task responses re-queried, IDs matched"
 }

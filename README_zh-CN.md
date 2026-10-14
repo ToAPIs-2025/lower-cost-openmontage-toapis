@@ -2,7 +2,7 @@
 
 [English](README.md) · [模型价格与 API 入口](https://go2v.toapis.com/om14gc) · [OpenMontage 上游](https://github.com/calesthio/OpenMontage)
 
-**$0.0019/张**，ToAPIs `gpt-image-2-vip | low/1K`。原创月球车场景 → 温室内景 → 蓝调离场，通过原生 OpenMontage `BaseTool` 完成文生图与参考改图。3 次调用报价合计 **$0.0057**；API billing 为空，后台实扣待确认。
+**$0.0019/张**，ToAPIs `gpt-image-2-vip | low/1K`。原创月球车场景 → 温室内景 → 蓝调离场，通过原生 OpenMontage `BaseTool` 完成文生图与参考改图。3张image-2(vip)生图实扣 **$0.0057**（1.14 积分）。
 
 ## 演示
 
@@ -18,7 +18,7 @@
 
 ## 七个模型选项的案例、价格与消费对比
 
-本次全部 11 项调用报价合计 **$0.195914**，API billing=null，实际结算待后台确认。
+本次全部 11 项调用实扣 **$0.195912**。
 
 ![Model comparison A](assets/comparison-a-cn.png)
 
@@ -26,13 +26,13 @@
 
 | Model / API route | Tier | Quote / image | Actual charge / sample | Actual px | Client seconds | Output |
 |---|---|---|---|---|---|---|
-| [`gpt-image-2-vip`](https://go2v.toapis.com/om14ge) | low / requested 1K | $0.0019 | 待后台确认 / pending | 1024×1024 / PNG | not recorded / recovered | [PNG](examples/toapis/results/orbital-arrival/result.png) · [record](examples/toapis/results/orbital-arrival/evidence.json) |
-| [`gpt-image-2`](https://toapis.com/en/model-guide/gpt-image-2?utm_campaign=om14i2) | — / requested 1K | $0.015 | 待后台确认 / pending | 1280×1280 / PNG | 115.69 | [PNG](examples/toapis/resolution-probes/gpt-image-2/result.png) · [record](examples/toapis/resolution-probes/gpt-image-2/evidence.json) |
-| [`gpt-image-2.5-flare`](https://im25.toapis.com/om14f) | high / requested 1K | $0.0225 | 待后台确认 / pending | 1024×1024 / PNG | 60.2 | [PNG](examples/toapis/comparison/gpt-image-2.5-flare/result.png) · [record](examples/toapis/comparison/gpt-image-2.5-flare/evidence.json) |
-| [`gemini-nano-banana-2.1`](https://toapis.com/en/model-guide/gemini-nano-banana-2-1?utm_campaign=om14n1) | — / requested 1K | $0.015 | 待后台确认 / pending | 1024×1024 / JPEG → PNG | 32.38 | [PNG](examples/toapis/comparison/gemini-nano-banana-2.1/result.png) · [Original JPEG](examples/toapis/comparison/gemini-nano-banana-2.1/result-original.jpg) · [record](examples/toapis/comparison/gemini-nano-banana-2.1/evidence.json) |
-| [`doubao-seedream-5-0-pro`](https://toapis.com/en/model-guide/doubao-seedream-5-0-pro?utm_campaign=om14s5) | medium (quote) / requested 1K | $0.042857 | 待后台确认 / pending | 2048×2048 / JPEG → PNG | 86.95 | [PNG](examples/toapis/resolution-probes/doubao-seedream-5-0-pro/result.png) · [Original JPEG](examples/toapis/resolution-probes/doubao-seedream-5-0-pro/result-original.jpg) · [record](examples/toapis/resolution-probes/doubao-seedream-5-0-pro/evidence.json) |
-| [`gemini-3.1-flash-image-preview`](https://nano2.toapis.com/om14n2) | — / requested 1K | $0.025 | 待后台确认 / pending | 1024×1024 / PNG | 32.77 | [PNG](examples/toapis/comparison/gemini-3.1-flash-image-preview/result.png) · [record](examples/toapis/comparison/gemini-3.1-flash-image-preview/evidence.json) |
-| [`nano_banana`](https://x.toapis.com/om14nb) | — / requested 1K | $0.012 | 待后台确认 / pending | 1024×1024 / PNG | 14.41 | [PNG](examples/toapis/comparison/nano_banana/result.png) · [record](examples/toapis/comparison/nano_banana/evidence.json) |
+| [`gpt-image-2-vip`](https://go2v.toapis.com/om14ge) | low / requested 1K | $0.0019 | $0.0019 | 1024×1024 / PNG | not recorded / recovered | [PNG](examples/toapis/results/orbital-arrival/result.png) · [record](examples/toapis/results/orbital-arrival/evidence.json) |
+| [`gpt-image-2`](https://toapis.com/en/model-guide/gpt-image-2?utm_campaign=om14i2) | — / requested 1K | $0.015 | $0.015 | 1280×1280 / PNG | 115.69 | [PNG](examples/toapis/resolution-probes/gpt-image-2/result.png) · [record](examples/toapis/resolution-probes/gpt-image-2/evidence.json) |
+| [`gpt-image-2.5-flare`](https://im25.toapis.com/om14f) | high / requested 1K | $0.0225 | $0.0225 | 1024×1024 / PNG | 60.2 | [PNG](examples/toapis/comparison/gpt-image-2.5-flare/result.png) · [record](examples/toapis/comparison/gpt-image-2.5-flare/evidence.json) |
+| [`gemini-nano-banana-2.1`](https://toapis.com/en/model-guide/gemini-nano-banana-2-1?utm_campaign=om14n1) | — / requested 1K | $0.015 | $0.015 | 1024×1024 / JPEG → PNG | 32.38 | [PNG](examples/toapis/comparison/gemini-nano-banana-2.1/result.png) · [Original JPEG](examples/toapis/comparison/gemini-nano-banana-2.1/result-original.jpg) · [record](examples/toapis/comparison/gemini-nano-banana-2.1/evidence.json) |
+| [`doubao-seedream-5-0-pro`](https://toapis.com/en/model-guide/doubao-seedream-5-0-pro?utm_campaign=om14s5) | medium (quote) / requested 1K | $0.042857 | $0.042856 | 2048×2048 / JPEG → PNG | 86.95 | [PNG](examples/toapis/resolution-probes/doubao-seedream-5-0-pro/result.png) · [Original JPEG](examples/toapis/resolution-probes/doubao-seedream-5-0-pro/result-original.jpg) · [record](examples/toapis/resolution-probes/doubao-seedream-5-0-pro/evidence.json) |
+| [`gemini-3.1-flash-image-preview`](https://nano2.toapis.com/om14n2) | — / requested 1K | $0.025 | $0.025 | 1024×1024 / PNG | 32.77 | [PNG](examples/toapis/comparison/gemini-3.1-flash-image-preview/result.png) · [record](examples/toapis/comparison/gemini-3.1-flash-image-preview/evidence.json) |
+| [`nano_banana`](https://x.toapis.com/om14nb) | — / requested 1K | $0.012 | $0.012 | 1024×1024 / PNG | 14.41 | [PNG](examples/toapis/comparison/nano_banana/result.png) · [record](examples/toapis/comparison/nano_banana/evidence.json) |
 
 [完整对比、分辨率差异和复用命令](examples/toapis/MODEL_COMPARISON.md)。同一提示词但模型档位不同，单张样例不是严格性能排名。
 
@@ -40,7 +40,7 @@
 
 | 模型 | 参数 | 当前报价 | 本次花费 |
 |---|---|---|---|
-| `gpt-image-2-vip` | `low / 1K / n=1` | **$0.0019/张** | $0.0057 / 3 次报价，实扣待确认 |
+| `gpt-image-2-vip` | `low / 1K / n=1` | **$0.0019/张** | $0.0057 / 3 张，后台确认实扣 |
 
 报价于 2026-10-14 通过鉴权 pricing API 核对。1 积分=$0.005；脱敏记录保留 API 原始 billing=null，实际花费在后台确认后填写。[对应模型价格快照](examples/toapis/pricing.json)。
 
@@ -68,7 +68,7 @@ python -m unittest discover -s tests/tools -p test_toapis_image.py
 - 像素提示转为宽高比，独立传 resolution；最终图片尺寸以实际输出为准。
 - 任务提交前写入私有状态，有 ID 就恢复原任务；无 ID 的不确定提交停止，避免重复付费。
 - 修复实测发现的 CDN 下载 403：结果请求设置可接受的 User-Agent，不携带 API Key。第一项任务按原 ID 恢复，没有重新生成。
-- 10 项离线注册/协议/拦截测试通过，11 项真实原生 Provider 调用成功。VIP 开放 low/1K/n=1，另开放比较表中六种对应档位的文生图；遮罩、透明背景和未核实档位提前拦截。
+- 10 项离线注册/协议/拦截测试通过，原生 VIP 图片 Provider 三项调用成功；新增模型调用另见对比。VIP low/1K/n=1 及对比表中的对应档位已启用，遮罩、透明背景和未核实档位提前拦截。
 
 `image_selector` 可指定 `preferred_tool="toapis_image"`、`hosting_provider="toapis"` 和 exact model；完整自动 Agent 路由尚未验收。[详细接入说明](docs/TOAPIS.md)。
 
@@ -78,4 +78,4 @@ python -m unittest discover -s tests/tools -p test_toapis_image.py
 
 基于 [calesthio/OpenMontage](https://github.com/calesthio/OpenMontage) 固定 SHA `e45f5b12bd46440b04f3675af9a77d0718e6a254` 的社区 fork；保留完整源码、[原英文 README](README_UPSTREAM.md)、[原中文 README](README_UPSTREAM_zh-CN.md)、赞助入口和 [AGPL-3.0](LICENSE)。独立复用异步适配器另保留 [MIT 声明](tools/TOAPIS_ADAPTER_LICENSE)。未代表上游官方集成或既有合作。
 
-JPEG 原图保留；PNG 是本地另存版本，模型输出格式与本地保存格式在记录中分别标明。分辨率补测仍得到标准 GPT 1280×1280、Seedream 2048×2048，不把请求 1K 当作实际 1024px。
+原始 JPEG 保留，PNG 是本地另存版本；费用按原始 API 任务核算，不为格式转换再次调用。实际像素与请求档位分开记录，服务端耗时来自后台截图，客户端耗时另见任务记录。

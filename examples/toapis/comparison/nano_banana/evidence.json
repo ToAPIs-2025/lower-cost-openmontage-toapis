@@ -27,11 +27,15 @@
   "output_format": "PNG",
   "sha256": "a521f626b788cd12c942dea3a2106ab2b309096936303bb8ec4253fa1846fa02",
   "elapsed_seconds": 14.41,
-  "actual_cost_usd": null,
-  "actual_credits": null,
+  "actual_cost_usd": "0.012",
+  "actual_credits": "2.4",
   "comparison": "One unseeded text-to-image sample per model; quality tiers differ; not a benchmark",
   "scope": "Native ToolRegistry + ToAPIsImage.execute",
   "original_format": "PNG",
   "saved_format": "PNG",
-  "locally_converted": false
+  "locally_converted": false,
+  "actual_cost_source": "Owner-confirmed backend credit charge; 1 credit=$0.005",
+  "backend_duration_seconds": 9,
+  "reported_model": "nano_banana",
+  "reported_model_check": "All 11 task responses re-queried, IDs matched"
 }

@@ -25,9 +25,16 @@
       1024
     ],
     "sha256": "4095ab2fc0b7a54d10979c7c4e4de1abd6b9f4465be39a302329de1e7d1119a2",
-    "actual_cost_usd": null,
-    "actual_credits": null,
-    "scope": "Native ToAPIsImage.execute through upstream ToolRegistry; complete video pipeline not tested"
+    "actual_cost_usd": "0.0019",
+    "actual_credits": 0.38,
+    "scope": "Native ToAPIsImage.execute through upstream ToolRegistry; complete video pipeline not tested",
+    "original_format": "PNG",
+    "saved_format": "PNG",
+    "locally_converted": false,
+    "actual_cost_source": "User confirmed backend credits; 1 credit = $0.005",
+    "backend_duration_seconds": 94,
+    "reported_model": "gpt-image-2-vip",
+    "reported_model_check": "All 11 task responses re-queried, IDs matched"
   },
   {
     "provider": "toapis",
@@ -58,9 +65,16 @@
       1024
     ],
     "sha256": "5474f0c7b3bf6a0c3391e445e73d8aa9570340dc8fe22daaa20c6f9d24d08fc5",
-    "actual_cost_usd": null,
-    "actual_credits": null,
-    "scope": "Native ToAPIsImage.execute through upstream ToolRegistry; complete video pipeline not tested"
+    "actual_cost_usd": "0.0019",
+    "actual_credits": 0.38,
+    "scope": "Native ToAPIsImage.execute through upstream ToolRegistry; complete video pipeline not tested",
+    "original_format": "PNG",
+    "saved_format": "PNG",
+    "locally_converted": false,
+    "actual_cost_source": "User confirmed backend credits; 1 credit = $0.005",
+    "backend_duration_seconds": 87,
+    "reported_model": "gpt-image-2-vip",
+    "reported_model_check": "All 11 task responses re-queried, IDs matched"
   },
   {
     "provider": "toapis",
@@ -91,8 +105,15 @@
       1024
     ],
     "sha256": "3d0e12ff6bcade43b45935aa500a47e8a94db9ca0f7657dbf9d35bf8f17a18a9",
-    "actual_cost_usd": null,
-    "actual_credits": null,
-    "scope": "Native ToAPIsImage.execute through upstream ToolRegistry; complete video pipeline not tested"
+    "actual_cost_usd": "0.0019",
+    "actual_credits": 0.38,
+    "scope": "Native ToAPIsImage.execute through upstream ToolRegistry; complete video pipeline not tested",
+    "original_format": "PNG",
+    "saved_format": "PNG",
+    "locally_converted": false,
+    "actual_cost_source": "User confirmed backend credits; 1 credit = $0.005",
+    "backend_duration_seconds": 307,
+    "reported_model": "gpt-image-2-vip",
+    "reported_model_check": "All 11 task responses re-queried, IDs matched"
   }
 ]

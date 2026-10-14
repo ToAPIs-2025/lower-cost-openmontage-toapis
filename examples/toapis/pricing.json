@@ -9,6 +9,6 @@
   },
   "unit": "request",
   "unit_price_usd": "0.0019",
-  "actual_charge_source": "pending",
-  "actual_total_usd": null
+  "actual_charge_source": "Owner-confirmed backend credits",
+  "actual_total_usd": "0.0057"
 }

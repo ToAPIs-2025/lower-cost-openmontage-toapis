@@ -28,11 +28,15 @@
   "output_format": "JPEG",
   "sha256": "a5ab4d69dd490bc45bfe1666a73d2cff2c7937d1977c661636fb7617675b1a58",
   "elapsed_seconds": 86.95,
-  "actual_cost_usd": null,
-  "actual_credits": null,
+  "actual_cost_usd": "0.042856",
+  "actual_credits": "8.5712",
   "scope": "Native ToAPIsImage resolution mapping probe; adds matching top-level resolution to metadata",
   "original_sha256": "7fc7437d50908be10f1f5b8665e5b15f1eb48a7e429076d34ee25357e953021b",
   "original_format": "JPEG",
   "saved_format": "PNG",
-  "locally_converted": true
+  "locally_converted": true,
+  "actual_cost_source": "Owner-confirmed backend credit charge; 1 credit=$0.005",
+  "backend_duration_seconds": 78,
+  "reported_model": "doubao-seedream-5-0-pro",
+  "reported_model_check": "All 11 task responses re-queried, IDs matched"
 }
