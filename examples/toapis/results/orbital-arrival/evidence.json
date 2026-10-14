@@ -1,0 +1,33 @@
+{
+  "provider": "toapis",
+  "model": "gpt-image-2-vip",
+  "operation": "generate",
+  "images_generated": 1,
+  "task_id": "tsk_img_01M4WXKSTQRYXTYW4FVRA3KNPV",
+  "request": {
+    "model": "gpt-image-2-vip",
+    "prompt": "Cinematic science-fiction storyboard still, wide establishing composition inside a square frame. An original small ivory exploration rover with four dark wheels and a single amber circular headlight arrives beside a glass habitat on a pale coral desert moon. Deep midnight-blue sky, Saturn-like distant planet, dawn rim light, photorealistic practical miniature aesthetic, crisp material detail. No brands, no text, no lettering, no watermark.",
+    "n": 1,
+    "size": "1:1",
+    "resolution": "1K",
+    "quality": "low"
+  },
+  "status": "completed",
+  "billing": null,
+  "unit_quote_usd": "0.0019",
+  "cost_status": "unsettled",
+  "case_id": "orbital-arrival",
+  "date": "2026-10-14",
+  "tool": "toapis_image",
+  "output_dimensions": [
+    1024,
+    1024
+  ],
+  "sha256": "4095ab2fc0b7a54d10979c7c4e4de1abd6b9f4465be39a302329de1e7d1119a2",
+  "actual_cost_usd": null,
+  "actual_credits": null,
+  "scope": "Native ToAPIsImage.execute through upstream ToolRegistry; complete video pipeline not tested",
+  "original_format": "PNG",
+  "saved_format": "PNG",
+  "locally_converted": false
+}

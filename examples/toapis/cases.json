@@ -1,0 +1,20 @@
+[
+  {
+    "id": "orbital-arrival",
+    "mode": "generate",
+    "reference": null,
+    "prompt": "Cinematic science-fiction storyboard still, wide establishing composition inside a square frame. An original small ivory exploration rover with four dark wheels and a single amber circular headlight arrives beside a glass habitat on a pale coral desert moon. Deep midnight-blue sky, Saturn-like distant planet, dawn rim light, photorealistic practical miniature aesthetic, crisp material detail. No brands, no text, no lettering, no watermark."
+  },
+  {
+    "id": "habitat-interior",
+    "mode": "edit",
+    "reference": "orbital-arrival",
+    "prompt": "Use the reference rover design: preserve its ivory rounded body, four dark wheels and single amber circular headlight. New cinematic scene: the same rover is inside a futuristic greenhouse habitat, soft emerald plants, curved glass ceiling, warm amber practical lights, coral desert visible through glass. Medium close-up, square frame, photorealistic miniature style. No text, no brands, no watermark."
+  },
+  {
+    "id": "blue-hour-departure",
+    "mode": "edit",
+    "reference": "orbital-arrival",
+    "prompt": "Preserve the reference rover identity: ivory body, four dark wheels, single amber circular headlight. Show the same rover leaving the moon habitat at blue hour along a gently curving track. Habitat glowing behind it, deep navy sky, coral dust foreground, subtle volumetric light, cinematic wide composition inside a square frame, photorealistic practical miniature style. No text, no brands, no watermark."
+  }
+]

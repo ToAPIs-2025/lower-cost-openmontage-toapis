@@ -1,0 +1,98 @@
+[
+  {
+    "provider": "toapis",
+    "model": "gpt-image-2-vip",
+    "operation": "generate",
+    "images_generated": 1,
+    "task_id": "tsk_img_01M4WXKSTQRYXTYW4FVRA3KNPV",
+    "request": {
+      "model": "gpt-image-2-vip",
+      "prompt": "Cinematic science-fiction storyboard still, wide establishing composition inside a square frame. An original small ivory exploration rover with four dark wheels and a single amber circular headlight arrives beside a glass habitat on a pale coral desert moon. Deep midnight-blue sky, Saturn-like distant planet, dawn rim light, photorealistic practical miniature aesthetic, crisp material detail. No brands, no text, no lettering, no watermark.",
+      "n": 1,
+      "size": "1:1",
+      "resolution": "1K",
+      "quality": "low"
+    },
+    "status": "completed",
+    "billing": null,
+    "unit_quote_usd": "0.0019",
+    "cost_status": "unsettled",
+    "case_id": "orbital-arrival",
+    "date": "2026-10-14",
+    "tool": "toapis_image",
+    "output_dimensions": [
+      1024,
+      1024
+    ],
+    "sha256": "4095ab2fc0b7a54d10979c7c4e4de1abd6b9f4465be39a302329de1e7d1119a2",
+    "actual_cost_usd": null,
+    "actual_credits": null,
+    "scope": "Native ToAPIsImage.execute through upstream ToolRegistry; complete video pipeline not tested"
+  },
+  {
+    "provider": "toapis",
+    "model": "gpt-image-2-vip",
+    "operation": "edit",
+    "images_generated": 1,
+    "task_id": "tsk_img_01M4WXT66YH7S10QTA1HRWHYBH",
+    "request": {
+      "model": "gpt-image-2-vip",
+      "prompt": "Use the reference rover design: preserve its ivory rounded body, four dark wheels and single amber circular headlight. New cinematic scene: the same rover is inside a futuristic greenhouse habitat, soft emerald plants, curved glass ceiling, warm amber practical lights, coral desert visible through glass. Medium close-up, square frame, photorealistic miniature style. No text, no brands, no watermark.",
+      "n": 1,
+      "size": "1:1",
+      "resolution": "1K",
+      "quality": "low",
+      "reference_images": [
+        "<uploaded URL omitted>"
+      ]
+    },
+    "status": "completed",
+    "billing": null,
+    "unit_quote_usd": "0.0019",
+    "cost_status": "unsettled",
+    "case_id": "habitat-interior",
+    "date": "2026-10-14",
+    "tool": "toapis_image",
+    "output_dimensions": [
+      1024,
+      1024
+    ],
+    "sha256": "5474f0c7b3bf6a0c3391e445e73d8aa9570340dc8fe22daaa20c6f9d24d08fc5",
+    "actual_cost_usd": null,
+    "actual_credits": null,
+    "scope": "Native ToAPIsImage.execute through upstream ToolRegistry; complete video pipeline not tested"
+  },
+  {
+    "provider": "toapis",
+    "model": "gpt-image-2-vip",
+    "operation": "edit",
+    "images_generated": 1,
+    "task_id": "tsk_img_01M4WXX92JE5558QTYC5TRB3M3",
+    "request": {
+      "model": "gpt-image-2-vip",
+      "prompt": "Preserve the reference rover identity: ivory body, four dark wheels, single amber circular headlight. Show the same rover leaving the moon habitat at blue hour along a gently curving track. Habitat glowing behind it, deep navy sky, coral dust foreground, subtle volumetric light, cinematic wide composition inside a square frame, photorealistic practical miniature style. No text, no brands, no watermark.",
+      "n": 1,
+      "size": "1:1",
+      "resolution": "1K",
+      "quality": "low",
+      "reference_images": [
+        "<uploaded URL omitted>"
+      ]
+    },
+    "status": "completed",
+    "billing": null,
+    "unit_quote_usd": "0.0019",
+    "cost_status": "unsettled",
+    "case_id": "blue-hour-departure",
+    "date": "2026-10-14",
+    "tool": "toapis_image",
+    "output_dimensions": [
+      1024,
+      1024
+    ],
+    "sha256": "3d0e12ff6bcade43b45935aa500a47e8a94db9ca0f7657dbf9d35bf8f17a18a9",
+    "actual_cost_usd": null,
+    "actual_credits": null,
+    "scope": "Native ToAPIsImage.execute through upstream ToolRegistry; complete video pipeline not tested"
+  }
+]

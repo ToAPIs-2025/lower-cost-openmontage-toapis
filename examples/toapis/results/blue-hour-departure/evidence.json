@@ -1,0 +1,36 @@
+{
+  "provider": "toapis",
+  "model": "gpt-image-2-vip",
+  "operation": "edit",
+  "images_generated": 1,
+  "task_id": "tsk_img_01M4WXX92JE5558QTYC5TRB3M3",
+  "request": {
+    "model": "gpt-image-2-vip",
+    "prompt": "Preserve the reference rover identity: ivory body, four dark wheels, single amber circular headlight. Show the same rover leaving the moon habitat at blue hour along a gently curving track. Habitat glowing behind it, deep navy sky, coral dust foreground, subtle volumetric light, cinematic wide composition inside a square frame, photorealistic practical miniature style. No text, no brands, no watermark.",
+    "n": 1,
+    "size": "1:1",
+    "resolution": "1K",
+    "quality": "low",
+    "reference_images": [
+      "<uploaded URL omitted>"
+    ]
+  },
+  "status": "completed",
+  "billing": null,
+  "unit_quote_usd": "0.0019",
+  "cost_status": "unsettled",
+  "case_id": "blue-hour-departure",
+  "date": "2026-10-14",
+  "tool": "toapis_image",
+  "output_dimensions": [
+    1024,
+    1024
+  ],
+  "sha256": "3d0e12ff6bcade43b45935aa500a47e8a94db9ca0f7657dbf9d35bf8f17a18a9",
+  "actual_cost_usd": null,
+  "actual_credits": null,
+  "scope": "Native ToAPIsImage.execute through upstream ToolRegistry; complete video pipeline not tested",
+  "original_format": "PNG",
+  "saved_format": "PNG",
+  "locally_converted": false
+}

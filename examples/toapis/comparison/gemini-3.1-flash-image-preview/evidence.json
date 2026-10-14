@@ -1,0 +1,37 @@
+{
+  "provider": "toapis",
+  "model": "gemini-3.1-flash-image-preview",
+  "operation": "generate",
+  "images_generated": 1,
+  "task_id": "tsk_img_01M4WYP7WPZQZ4CR027G8HS5Y3",
+  "request": {
+    "model": "gemini-3.1-flash-image-preview",
+    "prompt": "Cinematic science-fiction storyboard still, wide establishing composition inside a square frame. An original small ivory exploration rover with four dark wheels and a single amber circular headlight arrives beside a glass habitat on a pale coral desert moon. Deep midnight-blue sky, Saturn-like distant planet, dawn rim light, photorealistic practical miniature aesthetic, crisp material detail. No brands, no text, no lettering, no watermark.",
+    "n": 1,
+    "size": "1:1",
+    "metadata": {
+      "resolution": "1K"
+    }
+  },
+  "status": "completed",
+  "billing": null,
+  "unit_quote_usd": "0.025",
+  "cost_status": "unsettled",
+  "date": "2026-10-14",
+  "tool": "toapis_image",
+  "common_prompt": "Cinematic science-fiction storyboard still, wide establishing composition inside a square frame. An original small ivory exploration rover with four dark wheels and a single amber circular headlight arrives beside a glass habitat on a pale coral desert moon. Deep midnight-blue sky, Saturn-like distant planet, dawn rim light, photorealistic practical miniature aesthetic, crisp material detail. No brands, no text, no lettering, no watermark.",
+  "output_dimensions": [
+    1024,
+    1024
+  ],
+  "output_format": "PNG",
+  "sha256": "178c45891c716371c8edc738514f64272226f076e3b4d24b95fd117541a23307",
+  "elapsed_seconds": 32.77,
+  "actual_cost_usd": null,
+  "actual_credits": null,
+  "comparison": "One unseeded text-to-image sample per model; quality tiers differ; not a benchmark",
+  "scope": "Native ToolRegistry + ToAPIsImage.execute",
+  "original_format": "PNG",
+  "saved_format": "PNG",
+  "locally_converted": false
+}
